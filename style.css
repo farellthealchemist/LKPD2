@@ -13,6 +13,15 @@ header {
     text-align: center;
 }
 
+h1 a {
+     color: #fff;
+     text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+
+}
 main h2, h3 {
     font-family: 'Merriweather', sans-serif;
 }
@@ -25,6 +34,10 @@ main {
     display: flex;
     padding: 20px;
 }
+
+main ul, li, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
 aside {
     width: 25%;
     padding: 20px;
@@ -32,6 +45,17 @@ aside {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     background-image: url("background border.png");
     background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #0000EE;
+}
+
+a:hover {
+    color: #551A8B;
+    text-decoration: underline;
+    
 }
 
 section {
